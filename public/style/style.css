@@ -1,0 +1,305 @@
+body, h1, h2, h3, h4, h5, h6, p, div,ul,ol {
+   margin:0px;
+   padding:0px;
+
+
+}
+
+body {
+   font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+}
+
+/* Main */
+
+#header {
+   padding: 13px;
+   border-bottom: 1px solid lightgrey;
+}
+
+#menu {
+   padding-top:5px;
+   padding-bottom:5px;
+   padding-left: 260px;
+}
+
+#menu a {
+   text-decoration: none;
+   font-size:18px;
+   color:black;
+}
+
+#menu a:hover {
+   text-decoration: underline;
+}
+
+#menu a:visited {
+   text-decoration: underline;
+   color:gray;
+}
+
+#header_left {
+
+}
+
+#header_right {
+   margin-left:500px;
+
+}
+
+#notification {
+   padding: 5px;
+   border: 1px solid red;
+   background-color: lightpink;
+}
+/* Navbar */
+#navbar {
+   min-height: 322px;
+   min-width: 150px;
+   width:250px;
+   padding: 10px;
+   float:left;
+}
+
+#navbar a {
+   text-decoration: none;
+   color:black;
+   font-size: 20px;
+}
+
+.navbar_menu {
+   padding:5px;   
+}
+
+.navbar_menu:hover {
+   background-color: lightgray;
+}
+
+/* Content & Wrapper */
+
+#wrapper {
+   width: 900px;
+   margin: 0px auto;
+   padding:5px;
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+   float:left;
+}
+
+#content {
+   padding: 5px;
+   min-height: 200px;
+   
+}
+
+#footer {
+   background-color:#0066FF;
+   color:white;
+   padding: 8px;
+   margin-top: 5px;
+}
+
+/* Index table */
+
+#index_table {
+   margin:0px auto;
+   padding: 10px;
+   border:1px solid lightgrey;
+   width: 800px;
+}
+
+/* Header */
+
+#logo {
+   float:left;
+}
+
+#logo h2 a {
+   text-decoration: none;
+   color: black;
+}
+
+/* Login form */
+
+#login_title {
+   padding-top: 10px;
+}
+
+#login_form {
+   width: 400px;
+   
+}
+
+.login_form {
+   border: 1px lightgray solid;
+   color: lightgray;
+   padding:3px;
+} 
+
+/* DropDownMenu */
+
+.dropdownmenu {
+   width: 805px;
+   margin: 10px auto;
+   margin-left: 125px;
+
+}
+
+.filterInput {
+   width: 900px;
+   margin: 10px auto;
+
+}
+
+#hlist {
+   width: 900px;
+   margin-top: 20px;
+
+   margin: 0px auto;
+
+}
+
+
+
+#fselect1, #fselect2, #fselect3 {
+   border: 1px lightgray solid;		
+} 
+
+/* Price range input fields */
+
+#fselect4, #fselect5 {
+   padding: 5px;
+   border: 1px lightgray solid;
+
+}
+
+#fselect4 {
+   margin-left: 150px;
+}
+
+/* Submit search button */
+
+#fsubmit {
+   border: 1px lightgray solid;
+   padding: 5px;	
+}
+
+/* Display houses */
+
+.h_body {
+   /*border: 1px lightgray solid;*/
+   margin-bottom:5px;
+   clear: both; /* Removes floating problem */
+   height:185px;
+}
+
+#title {
+   width: 180px;
+   float: left;
+   padding: 3px;
+}
+
+
+.wpmd {
+   //float: left;
+}
+
+.wpmd1 {
+   //float: left;
+}
+
+#text3, #text2, #text1 {
+   padding:3px;
+}
+
+#text2 {
+   float: left;
+}
+
+.text1_title {
+   border-bottom: 1px solid lightgray;
+   padding: 3px;
+   float: left;
+   width: 700px;
+   font-size: 20px;
+
+}
+
+.text1_title .ws11 a {
+
+   font-size: 20px;	
+
+}
+
+#text3 {
+   width: 435px;
+}
+
+.text3_details {
+   clear: right;
+   padding-top:3px;
+   margin-left:360px;
+   min-width: 130px;
+
+}
+
+/* Dashboard Menu */
+
+.dashboard_menu {
+   padding: 10px;
+   border-bottom: 1px solid lightgray;
+}
+
+.dashboard_menu a {
+   padding: 10px;
+   font-size: 18px;
+
+}
+
+#d_title {
+   padding: 10px;
+}
+
+/* Add house */
+
+.add_form {
+   padding: 8px;
+   margin-bottom: 5px;
+   border: 1px lightgray solid;
+   color: gray;
+}
+
+.adding_form {
+   padding: 10px;
+}
+
+/* Profile */
+
+.p_form_fname {
+   color: lightgray;
+}
+
+.profile_info {
+   padding:10px;
+}
+
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: 'Arial';font-style: normal;font-weight: normal;}
+
+
